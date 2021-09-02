@@ -6,8 +6,10 @@ public class Solution03 {
         Scanner input = new Scanner(System.in);
         System.out.println("What is the quote?");
         String q = input.nextLine();//reads input on next line
+
         System.out.println("Who said it?");
         String n = input.nextLine();
+
         System.out.println(n + " says, \"" + q + "\"");
 
     }
