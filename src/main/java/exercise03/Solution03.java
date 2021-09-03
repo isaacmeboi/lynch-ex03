@@ -1,14 +1,18 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solution
+ *  Copyright 2021 Isaac Lynch
+ */
 package exercise03;
 
 import java.util.Scanner;
 public class Solution03 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("What is the quote?");
-        String q = input.nextLine();//reads input on next line
+        String q = sc.nextLine();//reads input on next line
 
         System.out.println("Who said it?");
-        String n = input.nextLine();
+        String n = sc.nextLine();
 
         System.out.println(n + " says, \"" + q + "\"");
 
